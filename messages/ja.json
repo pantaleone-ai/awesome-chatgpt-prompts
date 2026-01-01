@@ -861,6 +861,10 @@
       "referencedBy": "参照元:",
       "forbes": "Forbes",
       "harvardUniversity": "ハーバード大学",
+      "columbiaUniversity": "コロンビア大学",
+      "olympicCollege": "オリンピックカレッジ",
+      "citedIn": "引用元",
+      "arxivPaper": "arXiv論文",
       "mostLikedDataset": "Hugging Faceで#1最も人気のデータセット",
       "githubStars": "GitHubスター",
       "mostStarredRepo": "世界で#33最もスターされたリポジトリ",
@@ -868,7 +872,10 @@
       "githubStaffPick": "GitHubスタッフのおすすめ",
       "fullyOpenSource": "唯一の100%無料＆オープンソースのプロンプトライブラリ",
       "sponsoredBy": "スポンサー",
-      "becomeSponsor": "スポンサーになる"
+      "becomeSponsor": "スポンサーになる",
+      "firstEver": "世界初のプロンプトライブラリ",
+      "releasedOn": "2022年12月5日リリース",
+      "lovedByOpenAI": "OpenAI創設者に愛されている"
     }
   },
   "notifications": {

@@ -861,6 +861,10 @@
       "referencedBy": "Αναφέρθηκε από",
       "forbes": "Forbes",
       "harvardUniversity": "Πανεπιστήμιο Harvard",
+      "columbiaUniversity": "Πανεπιστήμιο Columbia",
+      "olympicCollege": "Olympic College",
+      "citedIn": "Αναφέρεται σε",
+      "arxivPaper": "Δημοσίευση arXiv",
       "mostLikedDataset": "#1 Πιο αγαπημένο Dataset στο Hugging Face",
       "githubStars": "Αστέρια GitHub",
       "mostStarredRepo": "#33 Repo με τα περισσότερα αστέρια στον κόσμο",
@@ -868,7 +872,10 @@
       "githubStaffPick": "Επιλογή προσωπικού GitHub",
       "fullyOpenSource": "Η μοναδική 100% δωρεάν & ανοιχτού κώδικα βιβλιοθήκη Prompts",
       "sponsoredBy": "Χορηγείται από",
-      "becomeSponsor": "Γίνετε χορηγός"
+      "becomeSponsor": "Γίνετε χορηγός",
+      "firstEver": "Η πρώτη βιβλιοθήκη Prompts στον κόσμο",
+      "releasedOn": "Κυκλοφόρησε στις 5 Δεκεμβρίου 2022",
+      "lovedByOpenAI": "Αγαπημένο από τους ιδρυτές της OpenAI"
     }
   },
   "notifications": {

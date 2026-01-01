@@ -861,6 +861,10 @@
       "referencedBy": "Referenciado por",
       "forbes": "Forbes",
       "harvardUniversity": "Universidade de Harvard",
+      "columbiaUniversity": "Universidade de Columbia",
+      "olympicCollege": "Olympic College",
+      "citedIn": "Citado em",
+      "arxivPaper": "Artigo arXiv",
       "mostLikedDataset": "#1 Dataset Mais Curtido no Hugging Face",
       "githubStars": "Estrelas no GitHub",
       "mostStarredRepo": "#33 Repositório Mais Estrelado do Mundo",
@@ -868,7 +872,10 @@
       "githubStaffPick": "Escolha da Equipe GitHub",
       "fullyOpenSource": "A única biblioteca de prompts 100% gratuita & open source",
       "sponsoredBy": "Patrocinado por",
-      "becomeSponsor": "Torne-se um Patrocinador"
+      "becomeSponsor": "Torne-se um Patrocinador",
+      "firstEver": "A primeira biblioteca de prompts do mundo",
+      "releasedOn": "Lançada em 5 de dezembro de 2022",
+      "lovedByOpenAI": "Amado pelos fundadores da OpenAI"
     }
   },
   "notifications": {

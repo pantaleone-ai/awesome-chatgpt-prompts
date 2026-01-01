@@ -861,6 +861,10 @@
       "referencedBy": "被引用于",
       "forbes": "Forbes",
       "harvardUniversity": "哈佛大学",
+      "columbiaUniversity": "哥伦比亚大学",
+      "olympicCollege": "奥林匹克学院",
+      "citedIn": "被引用于",
+      "arxivPaper": "arXiv论文",
       "mostLikedDataset": "Hugging Face 上最受欢迎的数据集 #1",
       "githubStars": "GitHub 星标",
       "mostStarredRepo": "全球第 #33 最受欢迎的仓库",
@@ -868,7 +872,10 @@
       "githubStaffPick": "GitHub 官方推荐",
       "fullyOpenSource": "唯一100%免费开源的提示词库",
       "sponsoredBy": "赞助商",
-      "becomeSponsor": "成为赞助商"
+      "becomeSponsor": "成为赞助商",
+      "firstEver": "世界首个提示词库",
+      "releasedOn": "发布于2022年12月5日",
+      "lovedByOpenAI": "深受OpenAI创始人喜爱"
     }
   },
   "notifications": {

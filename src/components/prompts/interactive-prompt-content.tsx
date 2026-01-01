@@ -27,6 +27,7 @@ interface InteractivePromptContentProps {
   isStructured?: boolean;
   structuredFormat?: "json" | "yaml";
   title?: string;
+  description?: string;
   isLoggedIn?: boolean;
   categoryName?: string;
   parentCategoryName?: string;
@@ -34,6 +35,8 @@ interface InteractivePromptContentProps {
   promptSlug?: string;
   promptType?: string;
   shareTitle?: string;
+  promptTitle?: string;
+  promptDescription?: string;
 }
 
 // Parse ${variablename:defaultvalue} or ${variablename} patterns
@@ -149,13 +152,16 @@ export function InteractivePromptContent({
   isStructured = false,
   structuredFormat = "json",
   title,
+  description,
   isLoggedIn = false,
   categoryName,
   parentCategoryName,
   promptId,
   promptSlug,
   promptType,
-  shareTitle
+  shareTitle,
+  promptTitle,
+  promptDescription
 }: InteractivePromptContentProps) {
   const t = useTranslations("common");
   const [copied, setCopied] = useState(false);
@@ -326,6 +332,8 @@ export function InteractivePromptContent({
               </Button>
               <RunPromptButton 
                 content={displayContent}
+                title={promptTitle || title}
+                description={promptDescription || description}
                 unfilledVariables={unfilledVariables}
                 onVariablesFilled={handleVariablesFilled}
                 getContentWithVariables={getContentWithVariables}
@@ -366,6 +374,8 @@ export function InteractivePromptContent({
             </Button>
             <RunPromptButton 
               content={displayedContent}
+              title={promptTitle || title}
+              description={promptDescription || description}
               unfilledVariables={unfilledVariables}
               onVariablesFilled={handleVariablesFilled}
               getContentWithVariables={getContentWithVariables}
@@ -414,6 +424,8 @@ export function InteractivePromptContent({
             </Button>
             <RunPromptButton 
               content={getFinalContent()}
+              title={promptTitle || title}
+              description={promptDescription || description}
               unfilledVariables={unfilledVariables}
               onVariablesFilled={handleVariablesFilled}
               getContentWithVariables={getContentWithVariables}
@@ -520,6 +532,8 @@ export function InteractivePromptContent({
           </Button>
           <RunPromptButton 
             content={getFinalContent()}
+            title={promptTitle || title}
+            description={promptDescription || description}
             unfilledVariables={unfilledVariables}
             onVariablesFilled={handleVariablesFilled}
             getContentWithVariables={getContentWithVariables}
